@@ -16,6 +16,7 @@
 		CC64DE862987205D008FB4AB /* 76649-checked.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE852987205D008FB4AB /* 76649-checked.json */; };
 		CC64DE882987208E008FB4AB /* 103831-circle-x.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE872987208E008FB4AB /* 103831-circle-x.json */; };
 		CC64DE8A298720D4008FB4AB /* 67230-trophy-winner.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE89298720D4008FB4AB /* 67230-trophy-winner.json */; };
+		CC64DE8C29872215008FB4AB /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64DE8B29872215008FB4AB /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CC64DE852987205D008FB4AB /* 76649-checked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "76649-checked.json"; sourceTree = "<group>"; };
 		CC64DE872987208E008FB4AB /* 103831-circle-x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103831-circle-x.json"; sourceTree = "<group>"; };
 		CC64DE89298720D4008FB4AB /* 67230-trophy-winner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "67230-trophy-winner.json"; sourceTree = "<group>"; };
+		CC64DE8B29872215008FB4AB /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 		CC64DE6A29871B41008FB4AB /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
-				CC64DE8429871D4C008FB4AB /* Animations */,
 				CC64DE6B29871B41008FB4AB /* LottieAnimationsListApp.swift */,
+				CC64DE8429871D4C008FB4AB /* Animations */,
 				CC64DE7C29871B92008FB4AB /* Views */,
 				CC64DE7A29871B6F008FB4AB /* Model */,
 				CC64DE6F29871B44008FB4AB /* Assets.xcassets */,
@@ -82,6 +84,7 @@
 		CC64DE7A29871B6F008FB4AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC64DE8B29872215008FB4AB /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC64DE8C29872215008FB4AB /* FavouriteAnimation.swift in Sources */,
 				CC64DE6C29871B41008FB4AB /* LottieAnimationsListApp.swift in Sources */,
 				CC64DE7E29871C00008FB4AB /* AnimationsListView.swift in Sources */,
 				CC64DE8329871CA3008FB4AB /* LottieView.swift in Sources */,
