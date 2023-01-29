@@ -13,6 +13,9 @@
 		CC64DE7E29871C00008FB4AB /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64DE7D29871C00008FB4AB /* AnimationsListView.swift */; };
 		CC64DE8129871C57008FB4AB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CC64DE8029871C57008FB4AB /* Lottie */; };
 		CC64DE8329871CA3008FB4AB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64DE8229871CA3008FB4AB /* LottieView.swift */; };
+		CC64DE862987205D008FB4AB /* 76649-checked.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE852987205D008FB4AB /* 76649-checked.json */; };
+		CC64DE882987208E008FB4AB /* 103831-circle-x.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE872987208E008FB4AB /* 103831-circle-x.json */; };
+		CC64DE8A298720D4008FB4AB /* 67230-trophy-winner.json in Resources */ = {isa = PBXBuildFile; fileRef = CC64DE89298720D4008FB4AB /* 67230-trophy-winner.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CC64DE7229871B44008FB4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC64DE7D29871C00008FB4AB /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		CC64DE8229871CA3008FB4AB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		CC64DE852987205D008FB4AB /* 76649-checked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "76649-checked.json"; sourceTree = "<group>"; };
+		CC64DE872987208E008FB4AB /* 103831-circle-x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103831-circle-x.json"; sourceTree = "<group>"; };
+		CC64DE89298720D4008FB4AB /* 67230-trophy-winner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "67230-trophy-winner.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 		CC64DE8429871D4C008FB4AB /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CC64DE89298720D4008FB4AB /* 67230-trophy-winner.json */,
+				CC64DE872987208E008FB4AB /* 103831-circle-x.json */,
+				CC64DE852987205D008FB4AB /* 76649-checked.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -160,7 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC64DE882987208E008FB4AB /* 103831-circle-x.json in Resources */,
 				CC64DE7329871B44008FB4AB /* Preview Assets.xcassets in Resources */,
+				CC64DE862987205D008FB4AB /* 76649-checked.json in Resources */,
+				CC64DE8A298720D4008FB4AB /* 67230-trophy-winner.json in Resources */,
 				CC64DE7029871B44008FB4AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
