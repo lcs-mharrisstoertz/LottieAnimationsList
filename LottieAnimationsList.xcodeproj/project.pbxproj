@@ -55,6 +55,7 @@
 		CC64DE6A29871B41008FB4AB /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				CC64DE8429871D4C008FB4AB /* Animations */,
 				CC64DE6B29871B41008FB4AB /* LottieAnimationsListApp.swift */,
 				CC64DE7C29871B92008FB4AB /* Views */,
 				CC64DE7A29871B6F008FB4AB /* Model */,
@@ -86,6 +87,13 @@
 				CC64DE8229871CA3008FB4AB /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CC64DE8429871D4C008FB4AB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
